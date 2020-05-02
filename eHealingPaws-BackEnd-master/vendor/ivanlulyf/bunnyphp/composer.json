@@ -1,0 +1,26 @@
+{
+  "name": "ivanlulyf/bunnyphp",
+  "description": "a lightweight PHP MVC Framework",
+  "keywords": [
+    "framework",
+    "mvc"
+  ],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Lu",
+      "email": "me@ivanlu.cn"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "BunnyPHP\\": "BunnyPHP/"
+    }
+  },
+  "require": {
+    "php": ">=7.0.0",
+    "ext-pdo": "*",
+    "ext-json": "*"
+  }
+}
